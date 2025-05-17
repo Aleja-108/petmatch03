@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetMatch</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" href="./imgs/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="main-header">
+    <div class="top-bar">
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+      </div>
+      <div class="action-icons">
+        <a href="#"><i class="fas fa-search"></i></a>
+        <a href="login.html"><i class="fas fa-user"></i></a>
+        <a href="admin.html"><i class="fas fa-user-cog"></i></a>
+      </div>
+    </div>
+
+    <div class="logo">
+      <img src="./imgs/logo_petmatch.png" alt="PetMatch">
+    </div>
+
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="perros.html">Perros</a>
+      <a href="gatos.html">Gatos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <!-- Imagen o video 
+      <img src="imgs/cat&dog.mp4" alt="Adopta un amigo">-->
+      <video autoplay muted loop playsinline>
+  		<source src="imgs/cat&dog.mp4" type="video/mp4">
+  		Tu navegador no soporta videos HTML5.
+	  </video>
+		<script>
+  			const video = document.getElementById('hero-video');
+  			video.playbackRate = 0.5;
+		</script>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <p>&copy; 2025 PetMatch — Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
