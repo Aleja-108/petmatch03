@@ -103,7 +103,7 @@ a {
 .cards-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* ✅ centra incluso pocas cards */
+  justify-content: center; 
   gap: 2rem;
   padding: 2rem;
   max-width: 1300px;
@@ -114,7 +114,7 @@ a {
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-  width: 260px; /* ✅ un poco más grande */
+  width: 260px; 
   overflow: hidden;
   text-align: center;
   transition: transform 0.3s ease;
@@ -124,9 +124,9 @@ a {
 
 .card img {
   width: 100%;
-  aspect-ratio: 3 / 4; /* ✅ vertical */
-  object-fit: contain; /* ✅ no recorta */
-  background-color: #fff8f0; /* relleno para imagen pequeña */
+  aspect-ratio: 3 / 4;
+  object-fit: contain; 
+  background-color: #fff8f0; 
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
