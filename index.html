@@ -42,10 +42,9 @@
     <section class="hero">
       <!-- Img o video 
       <img src="imgs/cat&dog.mp4" alt="Adopta un amigo">-->
-      <video autoplay muted loop playsinline>
-  		<source src="./imgs/cat&dog.mp4" type="video/mp4">
-  		
-	  </video>
+      <video id="heroVideo" autoplay muted loop playsinline>
+  <source src="./imgs/cat&dog.mp4" type="video/mp4">
+</video>
 	  <!--<script>
   		const video = document.getElementById('hero-video');
   		video.playbackRate = 0.5;
@@ -56,11 +55,12 @@
   <footer class="main-footer">
     <p>&copy; 2025 PetMatch — Todos los derechos reservados</p>
   </footer>
+	<!-- JS -->	
   <script>
   document.addEventListener("DOMContentLoaded", function () {
     const video = document.getElementById("heroVideo");
     if (video) {
-      video.playbackRate = 0.5; // reduzco velocidad
+      video.playbackRate = 0.4;
     }
   });
 </script>
