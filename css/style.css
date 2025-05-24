@@ -180,6 +180,16 @@ a {
   cursor: pointer;
 }
 
+.login-form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .top-bar {
