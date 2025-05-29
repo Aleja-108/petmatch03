@@ -190,6 +190,80 @@ a {
   font-family: 'Poppins', sans-serif;
 }
 
+/*Detalles d la mascota*/
+
+.card-details {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  font-size: 1rem;
+}
+
+.card-details img {
+  width: 40%;
+  object-fit: cover;
+  background-color: #fff8f0;
+}
+
+.card-info {
+  padding: 2rem;
+  color: #290B00;
+  flex: 1;
+}
+
+.card-info h2 {
+  margin-bottom: 1rem;
+  color: #e65100;
+  font-size: 1.5rem;
+}
+
+.card-info p {
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+
+.card-info label {
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.adopt-btn {
+  margin-top: 1.5rem;
+  background-color: #e65100;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.adopt-btn:hover {
+  background-color: #bf360c;
+}
+
+@media (max-width: 768px) {
+  .card-details {
+    flex-direction: column;
+  }
+
+  .card-details img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-info {
+    padding: 1.5rem;
+  }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .top-bar {
