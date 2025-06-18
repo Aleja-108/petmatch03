@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Panel Admin – PetMatch</title>
-  <link rel="stylesheet" href="./css/style.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gatos en Adopción – PetMatch</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="icon" href="./imgs/favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
 </head>
 <body>
 
-  <!-- Header -->
+  <!-- Header  -->
   <header class="main-header">
     <div class="top-bar">
       <div class="social-icons">
@@ -25,6 +25,7 @@
         <a href="#"><i class="fas fa-search"></i></a>
         <a href="login.html"><i class="fas fa-user"></i></a>
         <a href="admin.html"><i class="fas fa-user-cog"></i></a>
+      </div>
       </div>
     </div>
     <div class="logo">
@@ -38,23 +39,23 @@
     </nav>
   </header>
 
-  <main>
-    <section class="admin-panel">
-    <h2>Panel de Administración</h2>
-    <p>Desde aquí podés gestionar las publicaciones de mascotas, responder solicitudes y editar contenido.</p>
-    
-    <div style="display: flex; flex-direction: column; gap: 1rem; margin-top: 2rem;">
-      <button class="adopt-btn">Agregar nueva mascota</button>
-      <button class="adopt-btn">Ver solicitudes</button>
-      <button class="adopt-btn">Editar publicaciones</button>
-    </div>
+<main>
+  <section class="login-form">
+    <h2>Mi Perfil</h2>
+    <p>Completá tus datos para postularte a la adopción de una mascota.</p>
+    <form>
+      <input type="text" name="nombre" placeholder="Nombre completo" required />
+      <input type="email" name="email" placeholder="Correo electrónico" required />
+      <input type="tel" name="telefono" placeholder="Teléfono de contacto" />
+      <textarea name="mensaje" rows="5" placeholder="Contanos por qué querés adoptar"></textarea>
+      <button type="submit">Enviar solicitud</button>
+    </form>
   </section>
-  </section>
-  </main>
+</main>
 
-  <footer class="main-footer">
-    <p>&copy; 2025 PetMatch — Todos los derechos reservados</p>
-  </footer>
+<footer class="main-footer">
+  <p>&copy; 2025 PetMatch — Todos los derechos reservados</p>
+</footer>
 
 </body>
 </html>
